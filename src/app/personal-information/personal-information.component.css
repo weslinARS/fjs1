@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.DatosPersonales {
+  background: rgb(42, 54, 59);
+  background: linear-gradient(355deg, rgb(42, 54, 59) 0%, rgb(232, 74, 95) 25%, rgb(255, 132, 124) 50%, rgb(254, 206, 168) 75%);
+  height: 200px;
+  width:350px ;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px ;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+  padding: 5px ;
+}
+span{
+  font-weight: bold;
+}
+ul{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10% ;
+}
+li{
+  font-weight: 300;
+  list-style: none;
+}
